@@ -1,2 +1,1 @@
-# mp-live-doc
-Documentation of Real Homes Theme
+# Documentation of MedicalPress WordPress Theme
