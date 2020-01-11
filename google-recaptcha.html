@@ -40,7 +40,7 @@
     
     
       
-        <title>Contact Page - MedicalPress Documentation</title>
+        <title>Google reCaptcha - MedicalPress Documentation</title>
       
     
     
@@ -81,7 +81,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#add-contact-page" tabindex="1" class="md-skip">
+      <a href="#how-to-get-google-recaptcha-api-key-for-your-website" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -106,7 +106,7 @@
               MedicalPress Documentation
             </span>
             <span class="md-header-nav__topic">
-              Contact Page
+              Google reCaptcha
             </span>
           
         </div>
@@ -448,20 +448,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="contact-page.html" title="Contact Page" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="contact-page.html" title="Contact Page" class="md-nav__link">
       Contact Page
     </a>
-    
   </li>
 
     
@@ -529,11 +520,45 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="google-recaptcha.html" title="Google reCaptcha" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Google reCaptcha
+      </label>
+    
+    <a href="google-recaptcha.html" title="Google reCaptcha" class="md-nav__link md-nav__link--active">
       Google reCaptcha
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-get-google-recaptcha-api-key-for-your-website" title="How to get Google reCaptcha API Key for your website" class="md-nav__link">
+    How to get Google reCaptcha API Key for your website
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -647,8 +672,22 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-get-google-recaptcha-api-key-for-your-website" title="How to get Google reCaptcha API Key for your website" class="md-nav__link">
+    How to get Google reCaptcha API Key for your website
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
   
 </nav>
                   </div>
@@ -661,30 +700,28 @@
               
                 
                 
-                <h1 id="add-contact-page">Add Contact Page</h1>
-<p>Go to <strong>Dashboard &raquo; Pages &raquo; Add New</strong></p>
+                  <h1>Google reCaptcha</h1>
+                
+                <h2 id="how-to-get-google-recaptcha-api-key-for-your-website">How to get Google reCaptcha API Key for your website</h2>
+<p>This theme uses Google reCaptcha for spam safety. You need to provide public and private keys if you want to use reCAPTCHA with appointment and contact forms in this theme. You can obtain these keys by following the steps given below.</p>
 <ol>
 <li>
-<p>Provide the page title
-<img alt="" src="images/pages/19.png" /></p>
+<p>Click on the <a href="https://www.google.com/recaptcha/intro/index.html">Get reCaptcha Api Keys</a> link. Click on the "Admin Console" button on the top right and login with your google account.
+<img alt="Admin Login" src="images/recaptcha/admin-login.jpg" /></p>
 </li>
 <li>
-<p>Select <strong>Contact Template</strong> from page attributes &raquo; template.
-<img alt="" src="images/pages/20.png" /></p>
+<p>Provide the label of this API key pare and select reCaptcha V2 from the given options. You also need to provide the website domain names on which you want to use this api key. It will not work on any domain other than the given ones. After that click the terms and conditions checkbox and submit the form.
+<img alt="Config" src="images/recaptcha/config.jpg" /></p>
 </li>
 <li>
-<p>Enter text contents.
-<img alt="" src="images/pages/21.png" /></p>
+<p>In the next page you can see the site and secret keys as seen in the following screenshot. You can copy and save those in a safe place.
+<img alt="Get Keys" src="images/recaptcha/get-keys.jpg" /></p>
 </li>
 <li>
-<p><strong>Publish</strong> the page once it is ready.</p>
+<p>You can copy those keys in the related fields as seen in the following screenshot.
+<img alt="Enter Keys" src="images/recaptcha/provide-keys.jpg" /></p>
 </li>
 </ol>
-<div class="admonition info">
-<p>The contact form will not work unless you provide contact email address in related theme options.</p>
-</div>
-<p><img alt="" src="images/pages/22.png" /></p>
-<p>After publishing and configuring related theme options, you need to add the newly created page in menu from <strong>Dashboard</strong> &raquo; <strong>Appearace</strong> &raquo; <strong>Menus</strong></p>
                 
                   
                 
@@ -705,7 +742,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="appointment-page.html" title="Appointment Page" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="google-map.html" title="Google Maps" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -714,19 +751,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Appointment Page
+                Google Maps
               </span>
             </div>
           </a>
         
         
-          <a href="woocommerce-shop-page.html" title="Shop" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="wpml.html" title="WPML" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Shop
+                WPML
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
